@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.top, .footer{
+	width: 100%;
+	background: #000;
+	height: 50px;
+}
+.left, .right{
+	float: left;
+	display: block;
+	padding: 20px;
+}
+.left {
+	width: 200px;
+	background: #CCCCFF;
+	min-height: 600px;
+	/*margin-top: 25px;*/
+}
+.right{
+	float:left;
+	width:800px;
+}
+.footer{
+	clear: both;
+}
+ul{
+	list-style-type: none;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	line-height: 28px;
+	border-bottom: 10px, solid, #f1f1f1;
+}
