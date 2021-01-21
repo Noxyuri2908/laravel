@@ -5,9 +5,9 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class categoryController extends Controller
 {
     public function index(){
-    	return 'Here to manage productcs!';
+    	return view('backend.category.index');
     }
 }
