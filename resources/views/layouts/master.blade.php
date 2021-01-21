@@ -11,7 +11,7 @@
 	<div class='left'>
 		<ul>
 			<li ><a href="" style="font-weight: bold;">DASHBOARD</a></li>
-			<li ><a href="{{ route('backend.product') }}">Product Management</a></li>
+			<li ><a href="{{ route('backend.product') }}">Pro duct Management</a></li>
 			<li ><a href="{{ route('backend.user.index') }}">User Management</a></li>
 			<li ><a href="{{ route('backend.catog') }}">Catog Management</a></li>
 		</ul>
